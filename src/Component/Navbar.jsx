@@ -29,7 +29,7 @@ const Navbar = () => {
     </li>
     <li>
       <NavLink
-        to="/"
+        to="/contract-me"
         className="relative group font-medium text-md px-3 py-2 rounded overflow-hidden text-black"
       >
         <span className="absolute inset-0 scale-x-0 origin-center transition-transform duration-300 bg-black group-hover:scale-x-100 z-0 rounded"></span>
