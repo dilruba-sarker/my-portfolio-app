@@ -3,6 +3,7 @@ import Title from '../Title';
 import Skills from '../Skills';
 import SkillsGrid from '../SkillsGrid';
 import AboutMe from '../AboutMe';
+import EducationTable from '../EducationTable';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
            <SkillsGrid></SkillsGrid>
            <Skills></Skills>
            <AboutMe></AboutMe>
+           <EducationTable></EducationTable>
         </div>
     );
 };
