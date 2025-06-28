@@ -5,6 +5,7 @@ import pic from "../assets/dilruba-removebg-preview.png";
 import { Link } from "react-router";
 import { GoArrowUpRight, GoCrossReference } from "react-icons/go";
 import { MdDownloadForOffline } from "react-icons/md";
+import SocialLinks from "./SocialLinks";
 
 
 const Title = () => {
@@ -84,6 +85,7 @@ const Title = () => {
 </Link>
 </div>
 {/*  */}
+<SocialLinks></SocialLinks>
       </div>
     </div>
   );
