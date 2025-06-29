@@ -10,7 +10,7 @@ import SocialLinks from "./SocialLinks";
 
 const Title = () => {
   return (
-    <div className="flex gap-8 flex-col md:flex-row items-center">
+    <div className="flex gap-8 mt-20 flex-col md:flex-row items-center">
       <div>
         <img src={pic} alt="Profile" />
       </div>
