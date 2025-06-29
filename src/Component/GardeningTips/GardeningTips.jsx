@@ -3,9 +3,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 
-import pic1 from '../assets/FireSh.png';
-import pic2 from '../assets/FireSho.png';
-import pic3 from '../assets/Fi.png';
+import pic1 from '../../assets/FireSh.png';
+import pic2 from '../../assets/FireSho.png';
+import pic3 from '../../assets/Fi.png';
 import { Link } from 'react-router';
 
 const GardeningTips = () => {

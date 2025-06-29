@@ -4,9 +4,10 @@ import Skills from '../Skills';
 import SkillsGrid from '../SkillsGrid';
 import AboutMe from '../AboutMe';
 import EducationTable from '../EducationTable';
-import GardeningTips from '../gardeningtips';
+
 import Peoject2 from '../peoject2';
 import Footer from '../Footer';
+import GardeningTips from '../GardeningTips/GardeningTips';
 
 
 const Home = () => {
