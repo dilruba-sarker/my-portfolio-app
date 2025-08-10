@@ -8,6 +8,7 @@ import EducationTable from '../EducationTable';
 import Peoject2 from '../peoject2';
 import Footer from '../Footer';
 import GardeningTips from '../GardeningTips/GardeningTips';
+import Project3 from '../Project3';
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
            <AboutMe></AboutMe>
            <EducationTable></EducationTable>
 
+         <Project3/>
            <GardeningTips></GardeningTips>
          <Peoject2></Peoject2>
          <Footer></Footer>

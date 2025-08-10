@@ -11,10 +11,10 @@ import SocialLinks from "./SocialLinks";
 const Title = () => {
   return (
     <div className="flex gap-8 mt-20 flex-col md:flex-row items-center">
-      <div>
+      <div className="w-1/3">
         <img src={pic} alt="Profile" />
       </div>
-      <div>
+      <div className="w-2/3">
         <div className="flex gap-4 items-center">
           <img className="w-6 h-6" src={logo} alt="Logo" />
           <h1 className="text-xl font-bold">Hey There!</h1>
@@ -34,7 +34,12 @@ const Title = () => {
             />
           </span>
         </h2>
-       <p className="text-gray-500 mt-2">I am a front-end developer skilled in JavaScript, Tailwind CSS, React, and Node.js. <br /> I focus on creating efficient, responsive, and visually appealing web applications.</p>
+       <p className="text-gray-500 mt-2">I’m
+a Frontend Web Developer with solid skills in HTML, CSS, JavaScript, React, Node.js, and
+MongoDB. I’ve worked on several projects that focus on responsive design, user-friendly
+interfaces, and performance optimization.
+Currently, I’m learning Next.js to further improve my frontend development skills and stay
+updated with modern web technologies.</p>
 {/* */}
 
 

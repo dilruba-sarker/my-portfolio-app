@@ -11,7 +11,7 @@ import { Link } from 'react-router';
 const GardeningTips = () => {
     return (
         <div>
-            <div className='text-center mt-4'><h1 className='text-5xl mb-8 font-bold text-blue-600'>OUR PROJETS FEATURES</h1></div>
+            
             <div className="flex flex-col md:flex-row items-center justify-between gap-6 p-4">
             <div className="w-full md:w-1/2">
                 <Swiper

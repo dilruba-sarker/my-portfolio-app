@@ -40,13 +40,17 @@ const ContactMe = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-4 mt-10 border rounded-lg flex flex-col md:flex-row gap-6">
+    <div>
+       <div className="text-center"><h1 className="text-2xl font-bold">My Contract Details</h1></div>
+      
+      <div className="max-w-4xl mx-auto p-4 mt-10 border rounded-lg flex flex-col md:flex-row gap-6">
+     
       {/* Left contact info */}
       <div className="flex-1 bg-green-50 p-6 rounded-lg border border-green-300">
         <h2 className="text-xl font-bold mb-4">Contact Information</h2>
         <p><strong>Email:</strong> dilrubasarkerseo@gmail.com</p>
-        <p><strong>Phone:</strong> +880123456789</p>
-        <p><strong>WhatsApp:</strong> +880123456789 (optional)</p>
+        <p><strong>Phone:</strong> +8801708373229</p>
+        <p><strong>WhatsApp:</strong> +8801708373229 </p>
       </div>
 
       {/* Right contact form */}
@@ -79,7 +83,7 @@ const ContactMe = () => {
         </button>
         {status && <p className="text-sm text-gray-700 mt-2">{status}</p>}
       </form>
-    </div>
+    </div></div>
   );
 };
 

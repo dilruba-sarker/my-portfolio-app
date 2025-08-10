@@ -4,11 +4,13 @@ import Navbar from '../Component/Navbar';
 
 const Root = () => {
     return (
-        <div className='bg-green-100'>
+        <div className=' '>
             <Navbar></Navbar>
-      <Outlet></Outlet>
+     <div className='mt-20'> <Outlet></Outlet></div>
         </div>
     );
 };
 
 export default Root;
+
+

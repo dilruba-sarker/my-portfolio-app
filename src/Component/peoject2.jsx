@@ -6,7 +6,7 @@ import 'swiper/css';
 import pic1 from '../assets/web1.png';
 import pic2 from '../assets/Firwe.png';
 import pic3 from '../assets/web2.png';
-import { Link } from 'react-router'; // use react-router-dom here
+import { Link } from 'react-router'; // 
 
 const Peoject2 = () => {
     return (

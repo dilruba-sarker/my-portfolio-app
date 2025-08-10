@@ -10,6 +10,8 @@ import Home from "../Component/Home/Home";
 import ContractMe from "../Component/Pages/ContractMe";
 import DetailsGa from "../Component/DetailsGa";
 import Details2 from "../Component/Details2";
+import Details3 from "../Component/Details3";
+import AboutMe from "../Component/AboutMe";
 
 export const router = createBrowserRouter([
   {
@@ -27,6 +29,12 @@ export const router = createBrowserRouter([
              },{
               path:"/details2",
               element:<Details2></Details2>
+             },{
+              path:"/details3",
+              element:<Details3></Details3>
+             },{
+              path:"/about",
+              element:<AboutMe></AboutMe>
              }
         ]
 

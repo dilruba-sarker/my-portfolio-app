@@ -10,7 +10,7 @@ const DetailsGa = () => {
 
             <h2 className="text-2xl font-semibold text-green-600">🔗 Live Site</h2>
             <a
-                href="https://b-11-assignment-11-client.web.app/"
+                href="https:/my-10-assignment-b-11.web.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 underline hover:text-blue-800"
