@@ -8,7 +8,7 @@ import EducationTable from '../EducationTable';
 import Peoject2 from '../peoject2';
 import Footer from '../Footer';
 import GardeningTips from '../GardeningTips/GardeningTips';
-import Project3 from '../Project3';
+ import Project3 from '../Project3';
 
 
 const Home = () => {
