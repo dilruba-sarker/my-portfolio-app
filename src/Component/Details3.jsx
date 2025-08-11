@@ -2,7 +2,7 @@ import React from 'react';
 
 const Details3 = () => {
     return (
-        <div className="max-w-4xl mx-auto px-4 py-10 mt-20 text-gray-800">
+        <div className="max-w-4xl mx-auto px-4 py-10 mt-20 ">
             <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">
                 Welcome to Social Development Events Platform
             </h1>

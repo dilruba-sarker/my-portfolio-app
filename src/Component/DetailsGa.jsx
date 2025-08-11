@@ -2,7 +2,7 @@ import React from 'react';
 
 const DetailsGa = () => {
     return (
-        <div className="p-6 space-y-6 max-w-4xl mx-auto text-gray-800">
+        <div className="p-6 space-y-6 max-w-4xl mx-auto ">
             <h1 className="text-3xl font-bold text-green-700">🌱 GreenCircle - Gardening Community & Resource Hub</h1>
             <p>
                 A vibrant and inclusive platform for gardening lovers to share knowledge, ask plant care questions, connect with local enthusiasts, and join green events. Whether you're into composting, hydroponics, or just sprucing up your balcony garden — GreenCircle is your digital gardening home.
