@@ -10,7 +10,7 @@ export default function Project3() {
       <p className='mb-8'>Social Development Events Platform, responsive website It is designed to be intuitive, visually appealing, and efficient across all devices—mobile, tablet, and desktop. This project emphasizes clean UI/UX with secure backend architecture using Firebase and MongoDB.</p></div>
        
 
- {/* <div className="w-full flex justify-center mb-6">
+ <div className="w-full flex justify-center mb-6">
         <iframe
           className="w-full max-w-3xl aspect-video"
           src="https://www.youtube.com/embed/uNZCK_9O_uY?start=32"
@@ -19,7 +19,7 @@ export default function Project3() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-      </div> */}
+      </div> 
 
 <h1>my project is </h1>
        <Link to="/details3">
