@@ -8,7 +8,8 @@ import EducationTable from '../EducationTable';
 import Peoject2 from '../peoject2';
 import Footer from '../Footer';
 import GardeningTips from '../GardeningTips/GardeningTips';
- import Project3 from '../Project3';
+import Project4 from '../project4/project4';
+//  import Project3 from '../Project3';
 
 
 const Home = () => {
@@ -20,7 +21,8 @@ const Home = () => {
            <AboutMe></AboutMe>
            <EducationTable></EducationTable>
 
-         <Project3/>
+         {/* <Project3/> */}
+         <Project4></Project4>
            <GardeningTips></GardeningTips>
          <Peoject2></Peoject2>
          <Footer></Footer>

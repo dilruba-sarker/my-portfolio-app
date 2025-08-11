@@ -12,6 +12,7 @@ import DetailsGa from "../Component/DetailsGa";
 import Details2 from "../Component/Details2";
 import Details3 from "../Component/Details3";
 import AboutMe from "../Component/AboutMe";
+import Details4 from "../Component/Details4";
 
 export const router = createBrowserRouter([
   {
@@ -32,6 +33,9 @@ export const router = createBrowserRouter([
              },{
               path:"/details3",
               element:<Details3></Details3>
+             },{
+              path:"/details4",
+              element:<Details4></Details4>
              },{
               path:"/about",
               element:<AboutMe></AboutMe>

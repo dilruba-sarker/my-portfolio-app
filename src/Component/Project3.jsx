@@ -21,7 +21,7 @@ export default function Project3() {
         ></iframe>
       </div> 
 
-<h1>my project is </h1>
+
        <Link to="/details3">
                           <button className="btn bg-black text-white mt-6">See Details</button>
                       </Link>
