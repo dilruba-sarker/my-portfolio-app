@@ -66,7 +66,7 @@ const AboutMe = () => {
             whileInView={card.animation.animate}
             transition={{ duration: 1., delay: index * 0.4 }}
             viewport={{ once: true }}
-            className="bg-blue-100 text-gray-900 rounded-xl p-6 shadow-md hover:shadow-lg transition"
+            className="bg-gray-50 text-gray-900 rounded-xl p-6 shadow-md hover:shadow-lg transition"
           >
             <div className="flex items-center gap-3 mb-3 text-xl font-semibold text-blue-700">
               {card.icon}

@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 const DetailsGa = () => {
     return (
@@ -8,6 +8,7 @@ const DetailsGa = () => {
                 A vibrant and inclusive platform for gardening lovers to share knowledge, ask plant care questions, connect with local enthusiasts, and join green events. Whether you're into composting, hydroponics, or just sprucing up your balcony garden — GreenCircle is your digital gardening home.
             </p>
 
+            {/* Live Site */}
             <h2 className="text-2xl font-semibold text-green-600">🔗 Live Site</h2>
             <a
                 href="https:/my-10-assignment-b-11.web.app/"
@@ -18,8 +19,32 @@ const DetailsGa = () => {
                 🌐 Visit GreenCircle
             </a>
 
+            {/* GitHub */}
+            <h2 className="text-2xl font-semibold text-green-600">🔗 GitHub repository</h2>
+            <a
+                href="https://github.com/dilruba-sarker/gardening-tips-client"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline hover:text-blue-800"
+            >
+                🌐 Visit GitHub
+            </a>
+
+            <hr />
+     {/* Project Description */}
+            <h2 className="text-2xl font-semibold text-green-600">📖 Project Description</h2>
+            <p>
+                GreenCircle is built to foster a tight-knit gardening community both online and offline. The platform empowers users to connect based on gardening interests, participate in local events, and share valuable tips that help others grow — literally and figuratively.
+            </p>
+            <p>
+                From seasoned horticulturists to first-time plant parents, everyone is welcome. It’s more than a forum; it’s a living garden of shared knowledge and experiences.
+            </p>
+
             <hr />
 
+        
+
+            {/* Key Features */}
             <h2 className="text-2xl font-semibold text-green-600">🌟 Key Features</h2>
             <ul className="list-disc pl-6 space-y-1">
                 <li>🧑‍🌾 <strong>Community Tips & Posts</strong> – Share gardening tips, tricks, and inspiration with other members.</li>
@@ -31,25 +56,34 @@ const DetailsGa = () => {
 
             <hr />
 
-            <h2 className="text-2xl font-semibold text-green-600">📖 Project Description</h2>
-            <p>
-                GreenCircle is built to foster a tight-knit gardening community both online and offline. The platform empowers users to connect based on gardening interests, participate in local events, and share valuable tips that help others grow — literally and figuratively.
-            </p>
-            <p>
-                From seasoned horticulturists to first-time plant parents, everyone is welcome. It’s more than a forum; it’s a living garden of shared knowledge and experiences.
-            </p>
-
-            <hr />
-
-            <h2 className="text-2xl font-semibold text-green-600">📱 Responsiveness</h2>
+            {/* Challenges Faced */}
+            <h2 className="text-2xl font-semibold text-green-600">⚠ Challenges Faced</h2>
             <ul className="list-disc pl-6 space-y-1">
-                <li>✅ Mobile devices</li>
-                <li>✅ Desktop screens</li>
-                <li>⚠️ Tablet view (supported and optimized)</li>
+                <li>🌐 Implementing accurate location-based gardener search with privacy protection</li>
+                <li>📅 Coordinating real-time event updates without performance issues</li>
+                <li>🔄 Managing scalable database queries for posts, events, and categories</li>
+                <li>📱 Ensuring consistent mobile responsiveness across devices</li>
+                <li>🛡️ Securing user data and preventing spam or harmful content</li>
             </ul>
 
             <hr />
 
+            {/* Improvements & Future Plans */}
+            <h2 className="text-2xl font-semibold text-green-600">🚀 Potential Improvements & Future Plans</h2>
+            <ul className="list-disc pl-6 space-y-1">
+                <li>📢 Add push notifications for new events, replies, and messages</li>
+                <li>🌐 Introduce multi-language support for international gardeners</li>
+                <li>🤝 Enable group gardening projects and community challenges</li>
+                <li>📊 Provide gardening analytics and seasonal planting suggestions</li>
+                <li>📱 Launch a dedicated mobile app for easier on-the-go access</li>
+            </ul>
+
+            <hr />
+
+       
+            <hr />
+
+            {/* GitHub Commit Guidelines */}
             <h2 className="text-2xl font-semibold text-green-600">📁 GitHub Commit Guidelines</h2>
 
             <h3 className="text-xl font-semibold text-green-500">🖥️ Client-side</h3>
@@ -78,6 +112,7 @@ const DetailsGa = () => {
 
             <hr />
 
+            {/* Tech Stack */}
             <h2 className="text-2xl font-semibold text-green-600">🛠️ Tech Stack</h2>
             <ul className="list-disc pl-6 space-y-1">
                 <li>React.js + Tailwind CSS (Frontend)</li>

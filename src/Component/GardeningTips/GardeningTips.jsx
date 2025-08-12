@@ -39,7 +39,13 @@ const GardeningTips = () => {
                 <p className="text-gray-600">
                     Discover tips, tools, and a thriving community to help your garden grow. Whether you’re a beginner or seasoned gardener, our hub is your go-to resource.
                 </p>
-                
+                 <div className='flex mt-1 -mb-2'>
+                   <button className="mr-1 px-3  bg-blue-100 text-blue-700 font-semibold rounded-full text-sm hover:bg-blue-200 transition">html</button>
+                   <button className=" px-6 py-2 bg-blue-100 text-blue-700 font-semibold rounded-full text-sm hover:bg-blue-200 transition">tailwind css</button>
+                   <button className=" px-6 py-2 bg-blue-100 text-blue-700 font-semibold rounded-full text-sm hover:bg-blue-200 transition">react js</button>
+                   <button className=" px-6 py-2 bg-blue-100 text-blue-700 font-semibold rounded-full text-sm hover:bg-blue-200 transition">node js</button>
+                   <button className=" px-6 py-2 bg-blue-100 text-blue-700 font-semibold rounded-full text-sm hover:bg-blue-200 transition">mongodb</button>
+                </div>
                 <Link to='/detalils'> <button className='btn bg-black text-white mt-6'>Details</button></Link>
 
             </div>

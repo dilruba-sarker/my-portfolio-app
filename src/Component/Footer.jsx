@@ -9,9 +9,9 @@ const Footer = () => {
                 {/* Brand/Intro */}
                 <div>
                     <img src={logo} alt="Marigold Logo" className="w-12 mb-3" />
-                    <h2 className="text-xl font-bold text-white mb-3">Marigold</h2>
+                    <h2 className="text-xl font-bold text-white mb-3">Dilruba Sarker</h2>
                     <p className="text-sm leading-relaxed">
-                        Simplifying your bill payments — fast, secure, and reliable. Manage electricity, gas, water, internet & more.
+                        I’m a Frontend Web Developer with solid skills in HTML, CSS, JavaScript, React, Node.js, and MongoDB. I’ve worked on several projects that focus on responsive design, user-friendly interfaces, and performance optimization.
                     </p>
                 </div>
 
@@ -25,13 +25,13 @@ const Footer = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/details" className="hover:text-white transition">
-                                Project Details
-                            </Link>
+                            <Link to="/about" className="hover:text-white transition">
+                                About Me
+                             </Link>
                         </li>
                         <li>
-                            <Link to="/contact" className="hover:text-white transition">
-                                Contact
+                            <Link to="/contract-me" className="hover:text-white transition">
+                                Contact Us
                             </Link>
                         </li>
                     </ul>
@@ -64,7 +64,7 @@ const Footer = () => {
                         <li>
                             LinkedIn:{' '}
                             <a
-                                href="https://linkedin.com/in/dilruba-sarker"
+                                href="https://www.linkedin.com/in/dilruba-sarker-x20/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="hover:text-white transition"
