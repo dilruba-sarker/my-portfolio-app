@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router'; // ✅ Correct import
 import logo from "../assets/logo.png"; // ✅ Your project logo
+import SocialLinks from './SocialLinks';
 
 const Footer = () => {
     return (
@@ -34,6 +35,7 @@ const Footer = () => {
                                 Contact Us
                             </Link>
                         </li>
+                        <li>Bogura,Bangladesh</li>
                     </ul>
                 </div>
 
@@ -72,13 +74,14 @@ const Footer = () => {
                                 LinkedIn Profile
                             </a>
                         </li>
+                        <li><SocialLinks></SocialLinks></li>
                     </ul>
                 </div>
             </div>
 
             {/* Bottom Bar */}
             <div className="border-t border-gray-700 mt-10 pt-4 text-center text-sm text-gray-500">
-                &copy; {new Date().getFullYear()} Marigold Bill Management. All rights reserved.
+                &copy; {new Date().getFullYear()}  All rights reserved by @Dilruba Sarker
             </div>
         </footer>
     );

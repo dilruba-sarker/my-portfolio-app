@@ -90,6 +90,7 @@
 // export default ContactMe;
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import Footer from "../Footer";
 
 const ContactMe = () => {
   const [formData, setFormData] = useState({ email: "", message: "" });
@@ -177,7 +178,9 @@ const ContactMe = () => {
           )}
         </form>
       </div>
+       <Footer></Footer>
     </div>
+   
   );
 };
 

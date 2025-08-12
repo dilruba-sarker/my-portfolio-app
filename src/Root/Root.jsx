@@ -30,7 +30,7 @@ const Root = () => {
             <div className='mt-20'>
                 <Outlet />
             </div>
-            <Footer /> 
+          
             <ScrollToTopButton />
         </div>
     );
